@@ -4,3 +4,12 @@ metadata:
   name: <configMapName>
 data:
   myPassword: <yourpassword>
+
+........
+- name: MONGO_INITDB_ROOT_PASSWORD
+  valueForm:
+    configMapKeyRef:
+      name: <configMapName>
+      key: <myPassword>---give that name
+      
+.......
