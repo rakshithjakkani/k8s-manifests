@@ -21,4 +21,4 @@ spec:
         command:
         - /bin/sh
         - -c
-        - "while true; do wget -q -O- <provide-your-application-url>; done"
+        - "while true; do wget -q -O- http://afcdb4a13bf9c4c05b549e8486a8ff88-1120606185.us-east-1.elb.amazonaws.com/; done"
